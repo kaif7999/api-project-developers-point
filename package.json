@@ -1,14 +1,13 @@
 {
   "name": "api-project",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Developers Point API Project",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Developers Point",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "body-parser": "^2.2.0",
